@@ -1,16 +1,19 @@
 Smile Detector using Haarcascade in OpenCV
+
 This project implements a Smile Detector using OpenCV and the Haarcascade method. It employs the pre-trained haarcascade_smile.xml file to identify smiles in real-time through webcam input or on pre-recorded videos/images.
 
-Features
+Features:
+
 Detects and highlights smiles in real-time.
 Utilizes Haar Cascade Classifiers for efficient smile detection.
 Lightweight and easy to integrate with other projects.
 
-Requirements
+Requirements:
+
 Python 3.x
 OpenCV 4.x or later
 
-Setup
+Setup:
 
 Clone this repository:
 Copy code:
@@ -18,6 +21,7 @@ git clone https://github.com/<your-username>/smile-detector.git
 cd smile-detector  
 
 Install dependencies:
+
 Copy code:
 pip install opencv-python opencv-python-headless  
 
