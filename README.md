@@ -35,15 +35,15 @@ python smile_detector.py
 The program will start accessing your webcam. Smile, and the detector will highlight your smile on the video feed.
 
 How It Works
+
+
 The script uses haarcascade_smile.xml, a pre-trained cascade classifier for smile detection.
 OpenCV captures frames from the webcam.
 The Haar cascade scans each frame to detect smile patterns and marks them with bounding boxes.
 
+
 Customization
+
+
 Adjust detection parameters (like scale factor, min neighbors) in the script to fine-tune performance.
 Replace the webcam input with a video file for offline detection.
-Example Output
-
-Future Enhancements
-Add emotion detection for broader applications.
-Combine with deep learning for improved accuracy.
